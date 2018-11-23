@@ -10,7 +10,6 @@ class App extends React.Component {
             reset: 'yes'
         };
     }
-
     onClick = ()=> {
         console.log("onclick!!!");
         this.setState({
@@ -26,8 +25,6 @@ class App extends React.Component {
     }
 }
 
-
-
-ReactDOM.render(<App></App>, document.body);
+ReactDOM.render(<App></App>, document.getElementById('root'));
 
 

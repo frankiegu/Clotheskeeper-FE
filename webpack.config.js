@@ -7,7 +7,7 @@ module.exports = {
   plugins:[
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title:"Chiruno!!"
+      template:  "src/index.html"
     })
   ],
   module: {
